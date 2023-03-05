@@ -48,27 +48,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:id="@+id/group_theloai"
             android:orientation="vertical">
             <RadioButton android:id="@+id/radio_giaokhoa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="giáo khoa"
-                android:onClick="onRadioButtonClicked"/>
+                />
             <RadioButton android:id="@+id/radio_tieuthuyet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="tiểu thuyết"
-                android:onClick="onRadioButtonClicked"/>
+                />
             <RadioButton android:id="@+id/radio_khoahoc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="khoa học"
-                android:onClick="onRadioButtonClicked"/>
+                />
             <RadioButton android:id="@+id/radio_tamly"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="tâm lý"
-                android:onClick="onRadioButtonClicked"/>
+                />
         </RadioGroup>
     </LinearLayout>
     <LinearLayout
